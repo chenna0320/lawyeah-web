@@ -1,16 +1,18 @@
 {
   "private": true,
   "scripts": {
+    "lint": "next lint",
     "dev": "next",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "antd": "^4.0.0",
     "next": "latest",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-quill": "^2.0.0",
     "sass": "1.26.3",
-    "antd": "^5.0.0",
     "swr": "^2.0.0"
   },
   "devDependencies": {
